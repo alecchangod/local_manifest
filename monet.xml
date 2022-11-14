@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+    <!--Device Trees-->
+    <project path="device/xiaomi/monet" name="alecchangod/android_device_xiaomi_monet-oss" revision="xtended-13" remote="github" />
+    <project path="device/xiaomi/sm7250-common" name="mikairyuu/android_device_xiaomi_sm7250-common" revision="tiramisu" remote="github" />
+
+    <!--Kernel-->
+    <project path="kernel/xiaomi/sm7250" name="mikairyuu/kernel_xiaomi_sm7250" revision="神速"  remote="github" />
+
+    <!-- Vendor folders -->
+    <project path="vendor/xiaomi/" name="mikairyuu/android_vendor_xiaomi_sm7250" revision="tiramisu" remote="github" />
+    
+    <!-- Toolchain -->
+    <project path="prebuilts/clang/host/linux-x86/clang-lolz" name="Jprimero15/lolz_clang" revision="main" remote="gitlab" clone-depth="1"/>
+</manifest>
