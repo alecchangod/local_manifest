@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
+<!--     <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" /> -->
+<!--     <remove-project name="xd_vendor_xdroid" /> -->
+<!--     <remove-project name="xd_frameworks_base" /> -->
+<!--     <remove-project name="xd_vendor_qcom_opensource_vibrator" /> -->
+<!--     <project path="frameworks/base" name="sherifrahim/xd_frameworks_base" revision="thirteen" remote="github" /> -->
+<!--     <project path="vendor/qcom/opensource/commonsys-intf/display" name="alecchangod/android_vendor_qcom_opensource_display-commonsys-intf" revision="arrow-13.0" remote="github" /> -->
+<!--     <project path="vendor/xdroid" name="alecchangod/xd_vendor_xdroid" revision="thirteen" remote="github" /> -->
+<!--     <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" remote="github" revision="lineage-20.0"/> -->
     <!--Device Trees-->
-    <project path="device/xiaomi/monet" name="alecchangod/android_device_xiaomi_monet-oss" revision="xtended-13" remote="github" />
-    <project path="device/xiaomi/sm7250-common" name="mikairyuu/android_device_xiaomi_sm7250-common" revision="tiramisu" remote="github" />
+    <project path="device/xiaomi/monet" name="alecchangod/android_device_xiaomi_monet-oss" revision="xd-13" remote="github" />
+    <project path="device/xiaomi/sm7250-common" name="alecchangod/android_device_xiaomi_sm7250-common" revision="tiramisu" remote="github" />
 
-    <!--Kernel-->
-    <project path="kernel/xiaomi/sm7250" name="mikairyuu/kernel_xiaomi_sm7250" revision="神速"  remote="github" />
-
+    <!--Kernel--> 
+    <project path="kernel/xiaomi/sm7250" name="mikairyuu/kernel_xiaomi_sm7250" revision="神速" remote="github" />
+ 
     <!-- Vendor folders -->
     <project path="vendor/xiaomi/" name="mikairyuu/android_vendor_xiaomi_sm7250" revision="tiramisu" remote="github" />
     
-    <!-- Toolchain -->
-    <project path="prebuilts/clang/host/linux-x86/clang-lolz" name="Jprimero15/lolz_clang" revision="main" remote="gitlab" clone-depth="1"/>
+    <!-- (Clang) -->
+    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
 </manifest>
