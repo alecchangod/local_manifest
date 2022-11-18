@@ -2,7 +2,9 @@
 
 <manifest>
     <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" />
+    <remove-project name="xd_vendor_xdroid" />
     <project path="vendor/qcom/opensource/commonsys-intf/display" name="alecchangod/android_vendor_qcom_opensource_display-commonsys-intf" revision="arrow-13.0" remote="github" />
+    <project path="vendor/xdroid" name="alecchangod/xd_vendor_xdroid" revision="thirteen" remote="github" />
     <!--Device Trees-->
     <project path="device/xiaomi/monet" name="alecchangod/android_device_xiaomi_monet-oss" revision="xd-13" remote="github" />
     <project path="device/xiaomi/sm7250-common" name="alecchangod/android_device_xiaomi_sm7250-common" revision="tiramisu" remote="github" />
