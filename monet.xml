@@ -17,6 +17,7 @@
     <!-- Vendor folders -->
     <project path="vendor/xiaomi/" name="mikairyuu/android_vendor_xiaomi_sm7250" revision="tiramisu" remote="github" />
     
-    <!-- Toolchain -->
-    <project path="prebuilts/clang/host/linux-x86/clang-lolz" name="Jprimero15/lolz_clang" revision="35af822f4f646d14de402e615b9efaf29d200477" remote="gitlab" clone-depth="1"/>
+    <!-- (Clang) -->
+
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 </manifest>
