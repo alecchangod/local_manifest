@@ -4,11 +4,11 @@
 <!--     <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" /> -->
 <!--     <remove-project name="xd_vendor_xdroid" /> -->
 <!--     <remove-project name="xd_frameworks_base" /> -->
-    <remove-project name="xd_vendor_qcom_opensource_vibrator" />
+<!--     <remove-project name="xd_vendor_qcom_opensource_vibrator" /> -->
 <!--     <project path="frameworks/base" name="sherifrahim/xd_frameworks_base" revision="thirteen" remote="github" /> -->
 <!--     <project path="vendor/qcom/opensource/commonsys-intf/display" name="alecchangod/android_vendor_qcom_opensource_display-commonsys-intf" revision="arrow-13.0" remote="github" /> -->
 <!--     <project path="vendor/xdroid" name="alecchangod/xd_vendor_xdroid" revision="thirteen" remote="github" /> -->
-    <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" remote="github" revision="lineage-20.0"/>
+<!--     <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" remote="github" revision="lineage-20.0"/> -->
     <!--Device Trees-->
     <project path="device/xiaomi/monet" name="alecchangod/android_device_xiaomi_monet-oss" revision="xd-13" remote="github" />
     <project path="device/xiaomi/sm7250-common" name="alecchangod/android_device_xiaomi_sm7250-common" revision="tiramisu" remote="github" />
