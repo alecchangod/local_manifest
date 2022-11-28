@@ -9,9 +9,7 @@
     <!--Kernel-->
     <project path="kernel/xiaomi/sm7250" name="mikairyuu/kernel_xiaomi_sm7250" revision="神速" remote="github" />
 .   <!--hardware-->
-    <project path="hardware/xiaomi/" name="LineageOS/android_hardware_xiaomi" revision="lineage-20" remote="github" />
-    <!-- Gapps -->
-    <project path="vendor/gms/" name="project-xtended/gapps/vendor_gms" revision="xt" remote="gitlab" />
+    <project path="hardware/xiaomi/" name="LineageOS/android_hardware_xiaomi" revision="lineage-20" remote="github" /> 
     <!-- Vendor folders -->
     <project path="vendor/xiaomi/" name="mikairyuu/android_vendor_xiaomi_sm7250" revision="tiramisu" remote="github" />
     
