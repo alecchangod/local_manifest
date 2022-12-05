@@ -10,7 +10,7 @@
     <!--Kernel-->
 <!--     <project path="kernel/xiaomi/vangogh" name="PixelExperience-Devices/kernel_xiaomi_vangogh" revision="thirteen" remote="github" /> -->
     <project path="kernel/xiaomi/sm7250" name="PixelExperience-Devices/kernel_xiaomi_vangogh" revision="thirteen" remote="github" />
-.   <!--hardware-->
+    <!--hardware-->
     <project path="hardware/xiaomi/" name="alecchangod/android_hardware_xiaomi" revision="lineage-20" remote="github" /> 
     <project path="hardware/qcom-caf/sm8250/audio/" name="LineageOS/android_hardware_qcom_audio" revision="lineage-20.0-caf-sm8250" remote="github" /> 
     <!-- Vendor folders -->
