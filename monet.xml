@@ -11,7 +11,7 @@
 <!--     <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" remote="github" revision="lineage-20.0"/> -->
     <!--Device Trees-->
     <project path="device/xiaomi/monet" name="alecchangod/android_device_xiaomi_monet-oss" revision="xd-13" remote="github" />
-    <project path="device/xiaomi/sm7250-common" name="alecchangod/android_device_xiaomi_sm7250-common" revision="tiramisu" remote="github" />
+    <project path="device/xiaomi/sm7250-common" name="alecchangod/android_device_xiaomi_sm7250-common" revision="xd" remote="github" />
 
     <!--Kernel--> 
     <project path="kernel/xiaomi/sm7250" name="mikairyuu/kernel_xiaomi_sm7250" revision="神速" remote="github" />
