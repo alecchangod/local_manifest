@@ -9,7 +9,7 @@
     <project path="device/xiaomi/sm8150-common" name="alecchangod/android_device_xiaomi_sm8150-common" revision="xtended-13" remote="github" />
 
     <!--Kernel-->
-    <project path="kernel/xiaomi/sm8150" name="Pierre2324/NGK_android_kernel_xiaomi_sm8150" revision="t-caf" remote="github" />
+    <project path="kernel/xiaomi/sm8150" name="crdroidandroid/android_kernel_xiaomi_sm8150" revision="13.0" remote="github" />
     <!--hardware-->
     <project path="hardware/xiaomi/" name="alecchangod/android_hardware_xiaomi" revision="lineage-20" remote="github" /> 
     <project path="hardware/qcom-caf/sm8150/audio/" name="LineageOS/android_hardware_qcom_audio" revision="lineage-20.0-caf-sm8150" remote="github" /> 
