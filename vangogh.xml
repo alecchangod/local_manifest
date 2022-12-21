@@ -2,6 +2,7 @@
 
 <manifest>
 <!--    <remote name="gitlab" fetch="https://gitlab.com" /> -->
+    <remove-project name="vendor_xtended" />
     <remove-project name="hardware_qcom_audio" />
     <!--Device Trees-->
     <project path="device/xiaomi/vangogh" name="alecchangod/device_xiaomi_vangogh" revision="xtended-13" remote="github" />
@@ -16,6 +17,7 @@
     <!-- Vendor folders -->
     <project path="vendor/xiaomi/" name="alecchangod/android_vendor_xiaomi_sm7250" revision="tiramisu" remote="github" />
     <project path="vendor/xiaomi-firmware/" name="alecchangod/vendor_xiaomi-firmware" revision="main" remote="gitlab" />
+    <project path="vendor/xtended/" name="alecchangod/vendor_xtended" revision="Vangogh" remote="github" />
     
     <!-- (Clang) -->
     <project path="prebuilts/clang/host/linux-x86/clang-vangogh" name="maluueu/clang-vangogh" remote="gitlab" revision="master" clone-depth="1" />
