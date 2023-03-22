@@ -9,7 +9,7 @@
     <project path="device/xiaomi/sm7250-common" name="alecchangod/android_device_xiaomi_sm8250-common" revision="7250" remote="github" />
 
     <!--Kernel-->
-    <project path="kernel/xiaomi/sm7250" name="alecchangod/kernel_xiaomi_sm7250" revision="stable" remote="github" />
+    <project path="kernel/xiaomi/sm7250" name="alecchangod/kernel_xiaomi_sm7250" revision="test" remote="github" />
     <!--hardware-->
     <project path="hardware/xiaomi/" name="alecchangod/android_hardware_xiaomi" revision="lineage-20" remote="github" /> 
     <project path="hardware/qcom-caf/sm8250/audio/" name="LineageOS/android_hardware_qcom_audio" revision="lineage-20.0-caf-sm8250" remote="github" /> 
