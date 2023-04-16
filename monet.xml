@@ -6,7 +6,7 @@
 <!--     <remove-project name="vendor_xtended" /> -->
     <!--Device Trees-->
     <project path="device/xiaomi/monet" name="alecchangod/android_device_xiaomi_monet-oss" revision="xtended-13" remote="github" />
-    <project path="device/xiaomi/sm7250-common" name="alecchangod/android_device_xiaomi_sm8250-common" revision="7250" remote="github" />
+    <project path="device/xiaomi/sm7250-common" name="alecchangod/android_device_xiaomi_sm7250-common" revision="xtended" remote="github" />
 
     <!--Kernel-->
     <project path="kernel/xiaomi/sm7250" name="alecchangod/kernel_xiaomi_sm7250" revision="stable" remote="github" />
