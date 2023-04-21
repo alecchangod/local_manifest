@@ -3,21 +3,24 @@
 <manifest>
 <!--    <remote name="gitlab" fetch="https://gitlab.com" /> -->
     <remove-project name="hardware_qcom_audio" />
-<!--     <remove-project name="vendor_xtended" /> -->
+     <remove-project name="vendor_xtended" /> 
     <!--Device Trees-->
-    <project path="device/xiaomi/monet" name="alecchangod/android_device_xiaomi_monet-oss" revision="xtended-13" remote="github" />
-    <project path="device/xiaomi/sm7250-common" name="alecchangod/android_device_xiaomi_sm7250-common" revision="xtended" remote="github" />
+    <project path="device/xiaomi/monet" name="alecchangod/android_device_xiaomi_monet-oss" revision="xs" remote="github" />
+    <project path="device/xiaomi/sm7250-common" name="alecchangod/android_device_xiaomi_sm7250-common" revision="xs" remote="github" />
 
     <!--Kernel-->
-    <project path="kernel/xiaomi/sm7250" name="alecchangod/kernel_xiaomi_sm7250" revision="stable" remote="github" />
+<!--    <project path="kernel/xiaomi/sm7250" name="alecchangod/kernel_xiaomi_sm7250" revision="神速" remote="github" /> -->
+    <project path="kernel/xiaomi/sm7250" name="LineageOS/kernel_xiaomi_sm7250" revision="lineage-19.1" remote="github" />
+
     <!--hardware-->
-    <project path="hardware/xiaomi/" name="alecchangod/android_hardware_xiaomi" revision="lineage-20" remote="github" /> 
-    <project path="hardware/qcom-caf/sm8250/audio/" name="LineageOS/android_hardware_qcom_audio" revision="lineage-20.0-caf-sm8250" remote="github" /> 
+    <project path="hardware/xiaomi/" name="alecchangod/android_hardware_xiaomi" revision="lineage-19.1" remote="github" />
+    <project path="hardware/qcom-caf/sm8250/audio/" name="LineageOS/android_hardware_qcom_audio" revision="lineage-19.1-caf-sm8250" remote="github" />
     <!-- Vendor folders -->
-    <project path="vendor/xiaomi/" name="alecchangod/android_vendor_xiaomi_sm7250" revision="tiramisu" remote="github" />
+    <project path="vendor/xiaomi/" name="the-muppets/proprietary_vendor_xiaomi" revision="lineage-19.1" remote="gitlab" />
+<!--    <project path="vendor/xiaomi/" name="alecchangod/android_vendor_xiaomi_sm7250" revision="tiramisu" remote="github" /> -->
 <!--     <project path="vendor/xiaomi-firmware/" name="alecchangod/vendor_xiaomi-firmware" revision="main" remote="gitlab" /> -->
-<!--     <project path="vendor/xtended/" name="alecchangod/vendor_xtended" revision="xt" remote="github" /> -->
-    
+     <project path="vendor/xtended/" name="alecchangod/vendor_xtended" revision="xs" remote="github" /> 
+
     <!-- Toolchain -->
     <project path="prebuilts/clang/host/linux-x86/clang-lolz" name="Jprimero15/lolz_clang" revision="main" remote="gitlab" clone-depth="1"/>
     <!-- (Clang) -->
@@ -29,4 +32,5 @@
     <project path="prebuilts/clang/host/linux-x86/clang-trb" name="varunhardgamer/trb_clang" revision="17" remote="gitlab" />
 
 </manifest>
+
 
