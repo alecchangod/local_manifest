@@ -27,6 +27,8 @@
     <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r475365b" revision="13.0" remote="gitlab" />
     <!-- Clang 17 version 17 -->
     <project path="prebuilts/clang/host/linux-x86/clang-trb" name="alecchangod/trb_clang" revision="17" remote="gitlab" />
-
+     
+    <!--ANX-->
+    <project path="vendor/xiaomi/camera" name="alecchangod/android_vendor_xiaomi_camera" revision="miui13" remote="gitlab" />
+    
 </manifest>
-
