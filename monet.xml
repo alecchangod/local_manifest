@@ -10,14 +10,14 @@
 <!--     <project path="vendor/xdroid" name="alecchangod/xd_vendor_xdroid" revision="thirteen" remote="github" /> -->
 <!--     <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" remote="github" revision="lineage-20.0"/> -->
     <!--Device Trees-->
-    <project path="device/xiaomi/monet" name="alecchangod/android_device_xiaomi_monet-oss" revision="xd-13" remote="github" />
+    <project path="device/xiaomi/monet" name="alecchangod/android_device_xiaomi_monet-oss" revision="xd" remote="github" />
     <project path="device/xiaomi/sm7250-common" name="alecchangod/android_device_xiaomi_sm7250-common" revision="xd" remote="github" />
 
     <!--Kernel--> 
     <project path="kernel/xiaomi/sm7250" name="mikairyuu/kernel_xiaomi_sm7250" revision="神速" remote="github" />
  
     <!-- Vendor folders -->
-    <project path="vendor/xiaomi/" name="mikairyuu/android_vendor_xiaomi_sm7250" revision="tiramisu" remote="github" />
+    <project path="vendor/xiaomi/" name="mikairyuu/android_vendor_xiaomi" revision="monet" remote="github" />
     
     <!-- (Clang) -->
     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
