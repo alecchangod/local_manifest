@@ -4,7 +4,7 @@
     <remote name="gitlab1" fetch="https://gitlab.com" />
     <remote name="github" fetch="https://github.com" />
     <!--Device Trees-->
-    <project path="device/xiaomi/monet" name="alecchangod/android_device_xiaomi_monet-oss" revision="calyx" remote="github" />
+    <project path="device/xiaomi/monet" name="alecchangod/android_device_xiaomi_monet" revision="calyx" remote="github" />
     <project path="device/xiaomi/sm7250-common" name="alecchangod/android_device_xiaomi_sm7250-common" revision="calyx" remote="github" />
 
     <!--Kernel-->
@@ -13,7 +13,7 @@
     <project path="hardware/xiaomi/" name="alecchangod/android_hardware_xiaomi" revision="lineage-20" remote="github" /> 
 <!--     <project path="hardware/qcom-caf/sm8250/audio/" name="LineageOS/android_hardware_qcom_audio" revision="lineage-20.0-caf-sm8250" remote="github" /> --> 
     <!-- Vendor folders -->
-    <project path="vendor/xiaomi/" name="alecchangod/android_vendor_xiaomi_sm7250" revision="tiramisu" remote="github" />
+    <project path="vendor/xiaomi/" name="alecchangod/android_vendor_xiaomi" revision="monet" remote="github" />
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" revision="lineage-20.0" remote="github" />
 <!--     <project path="vendor/xiaomi-firmware/" name="alecchangod/vendor_xiaomi-firmware" revision="main" remote="gitlab" /> -->
 <!--     <project path="vendor/xtended/" name="alecchangod/vendor_xtended" revision="xt" remote="github" /> -->
