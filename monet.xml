@@ -5,7 +5,7 @@
     <remove-project name="hardware_qcom_audio" />
      <remove-project name="vendor_xtended" /> 
     <!--Device Trees-->
-    <project path="device/xiaomi/monet" name="alecchangod/android_device_xiaomi_monet-oss" revision="xs" remote="github" />
+    <project path="device/xiaomi/monet" name="alecchangod/android_device_xiaomi_monet" revision="xs" remote="github" />
     <project path="device/xiaomi/sm7250-common" name="alecchangod/android_device_xiaomi_sm7250-common" revision="xs" remote="github" />
 
     <!--Kernel-->
