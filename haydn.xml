@@ -14,7 +14,7 @@
     <project path="hardware/xiaomi/" name="alecchangod/android_hardware_xiaomi" revision="lineage-20" remote="github" />
 <!--    <project path="hardware/qcom-caf/sm8350/audio/" name="LineageOS/android_hardware_qcom_audio" revision="lineage-20.0-caf-sm8350" remote="github" /> -->
     <!-- Vendor folders -->
-    <project path="vendor/xiaomi/" name="alecchangod/android_vendor_xiaomi_sm7250" revision="haydn" remote="github" />
+    <project path="vendor/xiaomi/" name="alecchangod/android_vendor_xiaomi" revision="haydn" remote="github" />
     <project path="vendor/xiaomi/haydn-firmware/" name="Alucard_Storm/vendor_xiaomi_haydn-firmware" revision="thirteen" remote="gitlab" />
     <project path="vendor/xtended/" name="alecchangod/vendor_xtended" revision="xt" remote="github" />
 
