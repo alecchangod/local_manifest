@@ -1,34 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-<!--    <remote name="gitlab" fetch="https://gitlab.com" /> -->
-    <remove-project name="hardware_qcom_audio" />
-<!--     <remove-project name="vendor_xtended" /> -->
+<!--    <remove-project name="platform/external/bouncycastle" /> -->
+    <remote name="gitlab1" fetch="https://gitlab.com" />
+    <remote name="gh" fetch="https://github.com" />
     <!--Device Trees-->
-    <project path="device/xiaomi/monet" name="alecchangod/android_device_xiaomi_monet" revision="xt" remote="github" />
-    <project path="device/xiaomi/sm7250-common" name="alecchangod/android_device_xiaomi_sm7250-common" revision="xt" remote="github" />
+    <project path="device/xiaomi/monet" name="alecchangod/android_device_xiaomi_monet-oss" revision="elixir" remote="gh" />
+    <project path="device/xiaomi/sm7250-common" name="alecchangod/android_device_xiaomi_sm7250-common" revision="elixir" remote="gh" />
 
     <!--Kernel-->
-    <project path="kernel/xiaomi/sm7250" name="alecchangod/kernel_xiaomi_sm7250" revision="stable" remote="github" />
+    <project path="kernel/xiaomi/sm7250" name="alecchangod/kernel_xiaomi_sm7250" revision="stable" remote="gh" />
     <!--hardware-->
-    <project path="hardware/xiaomi/" name="LineageOS/android_hardware_xiaomi" revision="lineage-20" remote="github" /> 
-    <project path="hardware/qcom-caf/sm8250/audio/" name="LineageOS/android_hardware_qcom_audio" revision="lineage-20.0-caf-sm8250" remote="github" /> 
+<!--    <project path="hardware/xiaomi/" name="alecchangod/android_hardware_xiaomi" revision="lineage-20" remote="gh" /> -->
+<!--     <project path="hardware/qcom-caf/sm8250/audio/" name="LineageOS/android_hardware_qcom_audio" revision="lineage-20.0-caf-sm8250" remote="gh" /> --> 
     <!-- Vendor folders -->
-    <project path="vendor/xiaomi/" name="alecchangod/android_vendor_xiaomi" revision="monet" remote="github" />
-    <project path="vendor/xiaomi-firmware/monet/" name="alecchangod/vendor_xiaomi-firmware_monet" revision="main" remote="gitlab" />
-<!--     <project path="vendor/xtended/" name="alecchangod/vendor_xtended" revision="xt" remote="github" /> -->
+    <project path="vendor/xiaomi/" name="alecchangod/android_vendor_xiaomi_sm7250" revision="tiramisu" remote="gh" />
+    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" revision="lineage-20.0" remote="gh" />
+    <project path="vendor/xiaomi-firmware/" name="alecchangod/vendor_xiaomi-firmware" revision="main" remote="gitlab" />
+<!--     <project path="vendor/xtended/" name="alecchangod/vendor_xtended" revision="xt" remote="gh" /> -->
     
     <!-- Toolchain -->
-    <project path="prebuilts/clang/host/linux-x86/clang-lolz" name="Jprimero15/lolz_clang" revision="main" remote="gitlab" clone-depth="1"/>
+    <project path="prebuilts/clang/host/linux-x86/clang-lolz" name="Jprimero15/lolz_clang" revision="main" remote="gitlab1" clone-depth="1"/>
     <!-- (Clang) -->
-    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
+    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab1" revision="master" clone-depth="1" />
     
     <!-- Clang 16 version 16.0.2 -->
-    <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r475365b" revision="13.0" remote="gitlab" />
+    <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r475365b" revision="13.0" remote="gitlab1" />
     <!-- Clang 17 version 17 -->
-    <project path="prebuilts/clang/host/linux-x86/clang-trb" name="alecchangod/trb_clang" revision="17" remote="gitlab" />
-     
-    <!--ANX-->
-    <project path="vendor/xiaomi/camera" name="alecchangod/android_vendor_xiaomi_camera" revision="miui13" remote="gitlab" />
-    
+    <project path="prebuilts/clang/host/linux-x86/clang-trb" name="alecchangod/trb_clang" revision="17" remote="gitlab1" />
+
 </manifest>
