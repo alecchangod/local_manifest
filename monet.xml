@@ -13,7 +13,7 @@
 <!--    <project path="hardware/xiaomi/" name="yaap/hardware_xiaomi" revision="thirteen" remote="github" /> -->
 <!--    <project path="hardware/qcom-caf/sm8250/audio/" name="LineageOS/android_hardware_qcom_audio" revision="lineage-20.0-caf-sm8250" remote="github" /> -->
     <!-- Vendor folders -->
-    <project path="vendor/xiaomi/" name="alecchangod/android_vendor_xiaomi" revision="monet" remote="github" />
+    <project path="vendor/xiaomi/" name="alecchangod/android_vendor_xiaomi" revision="alpha" remote="github" />
     <project path="vendor/xiaomi-firmware/monet/" name="alecchangod/vendor_xiaomi-firmware_monet" revision="main" remote="gitlab" />
 <!--     <project path="vendor/xtended/" name="alecchangod/vendor_xtended" revision="xt" remote="github" /> -->
     
