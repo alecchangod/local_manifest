@@ -3,7 +3,7 @@
 <manifest>
 <!--    <remote name="gitlab" fetch="https://gitlab.com" /> -->
     <remove-project name="hardware_qcom_audio" />
-<!--     <remove-project name="vendor_xtended" /> -->
+    <remove-project name="vendor_pixel-framework" />
     <!--Device Trees-->
     <project path="device/xiaomi/monet" name="alecchangod/android_device_xiaomi_monet" revision="xt" remote="github" />
     <project path="device/xiaomi/sm7250-common" name="alecchangod/android_device_xiaomi_sm7250-common" revision="xt" remote="github" />
