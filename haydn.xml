@@ -5,10 +5,10 @@
 <!--    <remove-project name="hardware_qcom_audio" /> -->
 
     <!-- Sepolicy -->
-    <remove-project name="device_qcom_sepolicy_vndr-legacy-um" />
-    <project path="device/qcom/sepolicy_vndr-legacy-um" name="alecchangod/device_qcom_sepolicy_vndr-legacy-um" remote="github" revision="xt" />
-    <remove-project name="device_xtended_sepolicy" />
-    <project path="device/xtended/sepolicy" name="alecchangod/device_xtended_sepolicy" remote="github" revision="xt" />
+<!--     <remove-project name="device_qcom_sepolicy_vndr-legacy-um" /> -->
+<!--     <project path="device/qcom/sepolicy_vndr-legacy-um" name="alecchangod/device_qcom_sepolicy_vndr-legacy-um" remote="github" revision="xt" /> -->
+<!--     <remove-project name="device_xtended_sepolicy" /> -->
+<!--     <project path="device/xtended/sepolicy" name="alecchangod/device_xtended_sepolicy" remote="github" revision="xt" /> -->
 
     <!--Device Trees-->
     <project path="device/xiaomi/haydn" name="alecchangod/android_device_xiaomi_haydn" revision="xt" remote="github" />
