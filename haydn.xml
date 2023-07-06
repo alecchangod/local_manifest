@@ -29,6 +29,6 @@
     <!-- Clang 17 version 17 -->
     <project path="prebuilts/clang/host/linux-x86/clang-trb" name="alecchangod/trb_clang" revision="17" remote="gitlab" />
 
-    <project path="vendor/xiaomi/haydn-miuicamera" name="Alucard_Storm/haydn-miuicamera" revision="thirteen" remote="gitlab" />
+    <project path="vendor/xiaomi/haydn-miuicamera" name="Alucard_Storm/haydn-miuicamera" revision="thirteen-leica" remote="gitlab" />
 
 </manifest>
