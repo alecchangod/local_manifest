@@ -3,7 +3,13 @@
 <manifest>
 <!--    <remote name="gitlab" fetch="https://gitlab.com" /> -->
 <!--    <remove-project name="hardware_qcom_audio" /> -->
-    <remove-project name="vendor_xtended" />
+
+    <!-- Sepolicy -->
+    <remove-project name="device_qcom_sepolicy_vndr-legacy-um" />
+    <project path="device/qcom/sepolicy_vndr-legacy-um" name="alecchangod/device_qcom_sepolicy_vndr-legacy-um" remote="github" revision="xt" />
+    <remove-project name="device_xtended_sepolicy" />
+    <project path="device/xtended/sepolicy" name="alecchangod/device_xtended_sepolicy" remote="github" revision="xt" />
+
     <!--Device Trees-->
     <project path="device/xiaomi/haydn" name="alecchangod/android_device_xiaomi_haydn" revision="xt" remote="github" />
     <project path="device/xiaomi/sm8350-common" name="alecchangod/android_device_xiaomi_sm8350-common" revision="xt" remote="github" />
@@ -14,9 +20,12 @@
     <!--hardware-->
     <project path="hardware/xiaomi/" name="alecchangod/android_hardware_xiaomi" revision="lineage-20" remote="github" />
 <!--    <project path="hardware/qcom-caf/sm8350/audio/" name="LineageOS/android_hardware_qcom_audio" revision="lineage-20.0-caf-sm8350" remote="github" /> -->
-    <!-- Vendor folders -->
+    <!-- Device Vendor folders -->
     <project path="vendor/xiaomi/" name="alecchangod/android_vendor_xiaomi" revision="haydn" remote="github" />
     <project path="vendor/xiaomi/haydn-firmware/" name="Alucard_Storm/vendor_xiaomi_haydn-firmware" revision="thirteen" remote="gitlab" />
+
+    <!-- Rom Vendor -->
+    <remove-project name="vendor_xtended" />
     <project path="vendor/xtended/" name="alecchangod/vendor_xtended" revision="xt" remote="github" />
 
     <!-- Toolchain -->
