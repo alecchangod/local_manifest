@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-<!--    <remove-project name="platform/external/bouncycastle" /> -->
+    <remove-project name="android_hardware_mediatek" />
     <remote name="gitlab1" fetch="https://gitlab.com" />
     <remote name="gh" fetch="https://github.com" />
     <!--Device Trees-->
