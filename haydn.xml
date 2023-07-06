@@ -10,6 +10,7 @@
 
     <!--Kernel-->
     <project path="kernel/xiaomi/sm8350" name="Astridxx/android_kernel_xiaomi_sm8350" revision="lineage-20" remote="github" />
+    <project path="kernel/xiaomi/sm8350/KernelSU" name="alecchangod/KernelSU" remote="github" revision="main" />
     <!--hardware-->
     <project path="hardware/xiaomi/" name="alecchangod/android_hardware_xiaomi" revision="lineage-20" remote="github" />
 <!--    <project path="hardware/qcom-caf/sm8350/audio/" name="LineageOS/android_hardware_qcom_audio" revision="lineage-20.0-caf-sm8350" remote="github" /> -->
