@@ -3,6 +3,7 @@
 <manifest>
     <remove-project name="android_hardware_mediatek" />
     <remove-project name="android_packages_apps_ParanoidSense" />
+    
     <remove-project name="android_vendor_gapps" />
     <remote name="gitlab1" fetch="https://gitlab.com" />
     <remote name="gh" fetch="https://github.com" />
@@ -26,6 +27,9 @@
     
     <!-- Clang 16 version 16.0.2 -->
     <project path="prebuilts/clang/host/linux-x86/clang-latest" name="alecchangod/temp-clang-1" revision="main" remote="gh" />
+
+    
+    <project path="packages/apps/ParanoidSense" name="SOSP-OS/android_packages_apps_ParanoidSense" revision="sosp-13" remote="gh" />
     <!-- Clang 17 version 17 -->
 <!--    <project path="prebuilts/clang/host/linux-x86/clang-trb" name="alecchangod/trb_clang" revision="17" remote="gitlab1" /> -->
      
