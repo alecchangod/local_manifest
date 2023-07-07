@@ -7,6 +7,7 @@
     <remove-project name="android_vendor_gapps" />
     <remote name="gitlab1" fetch="https://gitlab.com" />
     <remote name="gh" fetch="https://github.com" />
+    <remote name="temp" fetch="https://alecchangod@bitbucket.org" />
     <!--Device Trees-->
     <project path="device/xiaomi/monet" name="alecchangod/android_device_xiaomi_monet" revision="arrow" remote="gh" />
     <project path="device/xiaomi/sm7250-common" name="alecchangod/android_device_xiaomi_sm7250-common" revision="arrow-13.1" remote="gh" />
@@ -25,8 +26,9 @@
     <!-- (Clang) -->
 <!--     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab1" revision="master" clone-depth="1" /> -->
     
+    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="temp-clang-1/temp-clang-0" revision="main" remote="temp" />
     <!-- Clang 16 version 16.0.2 -->
-    <project path="prebuilts/clang/host/linux-x86/clang-latest" name="alecchangod/temp-clang-1" revision="main" remote="gh" />
+    <project path="prebuilts/clang/host/linux-x86/clang-latest" name="temp-clang-1/temp-clang" revision="main" remote="temp" />
 
     
     <project path="packages/apps/ParanoidSense" name="SOSP-OS/android_packages_apps_ParanoidSense" revision="sosp-13" remote="gh" />
