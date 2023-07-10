@@ -19,6 +19,10 @@
     <project path="vendor/xiaomi/" name="alecchangod/android_vendor_xiaomi" revision="monet" remote="github" />
     <project path="vendor/xiaomi-firmware/monet/" name="alecchangod/vendor_xiaomi-firmware_monet" revision="main" remote="gitlab" />
 <!--     <project path="vendor/xtended/" name="alecchangod/vendor_xtended" revision="xt" remote="github" /> -->
+
+    <!-- Sepolicy -->
+    <remove-project name="system_sepolicy" />
+    <project path="system/sepolicy" name="alecchangod/system_sepolicy" revision="xt" remote="github" />
     
     <!-- Toolchain -->
     <!-- <project path="prebuilts/clang/host/linux-x86/clang-lolz" name="Jprimero15/lolz_clang" revision="main" remote="gitlab" clone-depth="1"/> -->
