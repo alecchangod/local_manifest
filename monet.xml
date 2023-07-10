@@ -43,8 +43,10 @@
     <project path="packages/apps/Contacts" name="packages_apps_Contacts" revision="xt" remote="a-hub" />
 <!--     <remove-project name="packages_apps_DeskClock" /> -->
 <!--     <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="a-hub" /> -->
+    <remove-project name="packages_apps_Dialer" />
+    <project path="packages/apps/Dialer" name="packages_apps_Dialer" revision="xt" remote="a-hub" />
+    
 
-        
     <remove-project name="hardware_qcom_display" />
     <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom_display" remote="a-hub" revision="xt-caf-sm8250" />  
 
