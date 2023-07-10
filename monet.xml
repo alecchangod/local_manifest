@@ -23,6 +23,10 @@
     <!-- Sepolicy -->
     <remove-project name="system_sepolicy" />
     <project path="system/sepolicy" name="alecchangod/system_sepolicy" revision="xt" remote="github" />
+
+    <!-- Settings -->
+    <remove-project name="packages_apps_Settings" />
+    <project path="packages/apps/Settings" name="alecchangod/packages_apps_Settings" revision="xt" remote="github" />
     
     <!-- Toolchain -->
     <!-- <project path="prebuilts/clang/host/linux-x86/clang-lolz" name="Jprimero15/lolz_clang" revision="main" remote="gitlab" clone-depth="1"/> -->
