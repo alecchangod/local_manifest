@@ -4,7 +4,6 @@
 <!--    <remote name="gitlab" fetch="https://gitlab.com" /> -->
     <remote name="a-hub" fetch="https://github.com/alecchangod-test-hub" />
 <!--     <remove-project name="vendor_pixel-framework" /> -->
-<!--     <remove-project name="vendor_xtended" /> -->
 
     <!--Device Trees-->
     <project path="device/xiaomi/monet" name="alecchangod/android_device_xiaomi_monet" revision="xt" remote="github" />
@@ -20,7 +19,9 @@
     <!-- Vendor folders -->
     <project path="vendor/xiaomi/" name="alecchangod/android_vendor_xiaomi" revision="monet" remote="github" />
     <project path="vendor/xiaomi-firmware/monet/" name="alecchangod/vendor_xiaomi-firmware_monet" revision="main" remote="gitlab" />
-<!--     <project path="vendor/xtended/" name="alecchangod/vendor_xtended" revision="xt" remote="github" /> -->
+    
+    <remove-project name="vendor_xtended" />
+    <project path="vendor/xtended/" name="alecchangod/vendor_xtended" revision="xt" remote="github" />
 
     <!-- Sepolicy -->
 <!--     <remove-project name="system_sepolicy" /> -->
