@@ -49,6 +49,10 @@
     <remove-project name="external_tinycompress" />
     <project path="external/tinycompress" name="external_tinycompress" revision="xt" remote="a-hub" />
 
+    <!-- Framework Base -->
+    <remove-project name="frameworks_base" />
+    <project path="frameworks/base" name="alecchangod/frameworks_base" revision="xt" remote="github" />
+
     <!-- Packages apps -->
     <remove-project name="packages_apps_Aperture" />
     <project path="packages/apps/Aperture" name="packages_apps_Aperture" revision="xt" remote="a-hub" />
