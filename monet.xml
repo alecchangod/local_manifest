@@ -67,7 +67,7 @@
     <project path="packages/apps/Updater" name="alecchangod/packages_apps_Updater" revision="xt" remote="github" />
     <project path="vendor/xtendedOTA" name="alecchangod/vendor_xtendedOTA" revision="xt" remote="github" />
     <remove-project name="platform/system/update_engine" />
-    <project path="system/update_engine" name="LineageOS/android_system_update_engine" revision="lineage-20.0" remote="github" />
+    <project path="system/update_engine" name="crdroidandroid/android_system_update_engine" revision="13.0" remote="github" />
     
 
     <remove-project name="hardware_qcom_display" />
