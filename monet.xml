@@ -44,18 +44,18 @@
     <project path="packages/apps/Settings" name="alecchangod/packages_apps_Settings" revision="xt" remote="github" />
 
     <!-- External -->
-    <remove-project name="external_sqlite" />
-    <project path="external/sqlite" name="external_sqlite" revision="xt" remote="a-hub" />
-    <remove-project name="external_tinycompress" />
-    <project path="external/tinycompress" name="external_tinycompress" revision="xt" remote="a-hub" />
+<!--     <remove-project name="external_sqlite" /> -->
+<!--     <project path="external/sqlite" name="external_sqlite" revision="xt" remote="a-hub" /> -->
+<!--     <remove-project name="external_tinycompress" /> -->
+<!--     <project path="external/tinycompress" name="external_tinycompress" revision="xt" remote="a-hub" /> -->
 
     <!-- Framework Base -->
     <remove-project name="frameworks_base" />
     <project path="frameworks/base" name="alecchangod/frameworks_base" revision="xt" remote="github" />
 
     <!-- Packages apps -->
-    <remove-project name="packages_apps_Aperture" />
-    <project path="packages/apps/Aperture" name="packages_apps_Aperture" revision="xt" remote="a-hub" />
+<!--     <remove-project name="packages_apps_Aperture" /> -->
+<!--     <project path="packages/apps/Aperture" name="packages_apps_Aperture" revision="xt" remote="a-hub" /> -->
     <remove-project name="packages_apps_Contacts" />
     <project path="packages/apps/Contacts" name="packages_apps_Contacts" revision="xt" remote="a-hub" />
 <!--     <remove-project name="packages_apps_DeskClock" /> -->
@@ -70,11 +70,11 @@
     <project path="system/update_engine" name="crdroidandroid/android_system_update_engine" revision="13.0" remote="github" />
     
 
-    <remove-project name="hardware_qcom_display" />
-    <project path="hardware/qcom-caf/sm8250/display" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-20.0-caf-sm8250" />  
+<!--     <remove-project name="hardware_qcom_display" /> -->
+<!--     <project path="hardware/qcom-caf/sm8250/display" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-20.0-caf-sm8250" />   -->
 
-    <remove-project name="hardware_qcom_media" />
-    <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom_media" remote="a-hub" revision="xt-caf-sm8250" />
+<!--     <remove-project name="hardware_qcom_media" /> -->
+<!--     <project path="hardware/qcom-caf/sm8250/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-20.0-caf-sm8250" /> -->
 
     <!-- Hardware -->
     <remove-project name="hardware_qcom-caf_common" />
@@ -82,20 +82,20 @@
       <!-- add guard for AOSP hardware/qcom dir -->
       <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
       <!-- add guards for CAF repositories -->
-<!--       <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" /> -->
-<!--       <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8953/Android.mk" /> -->
-<!--       <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" /> -->
-<!--       <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" /> -->
-<!--       <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" /> -->
-<!--       <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" /> -->
-<!--       <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" /> -->
-<!--       <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" /> -->
-<!--       <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" /> -->
-<!--       <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" /> -->
+      <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
+      <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8953/Android.mk" />
+      <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+      <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+      <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+      <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+      <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+      <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+      <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+      <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
       <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
       <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
-<!--       <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" /> -->
-<!--       <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" /> -->
+      <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
+      <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
       <!-- NXP -->
       <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
       <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
@@ -103,8 +103,8 @@
       <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
     </project>
 
-    <remove-project name="hardware_xtended_interfaces" />
-    <project path="hardware/xtended/interfaces" name="hardware_xtended_interfaces" revision="xt" remote="a-hub" />
+<!--     <remove-project name="hardware_xtended_interfaces" /> -->
+<!--     <project path="hardware/xtended/interfaces" name="hardware_xtended_interfaces" revision="xt" remote="a-hub" /> -->
 
     <!-- Toolchain -->
     <!-- <project path="prebuilts/clang/host/linux-x86/clang-lolz" name="Jprimero15/lolz_clang" revision="main" remote="gitlab" clone-depth="1"/> -->
