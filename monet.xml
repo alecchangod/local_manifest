@@ -1,33 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-    <remove-project name="android_hardware_mediatek" />
     <remote name="gitlab1" fetch="https://gitlab.com" />
     <remote name="gh" fetch="https://github.com" />
+
     <!--Device Trees-->
     <project path="device/xiaomi/monet" name="alecchangod/android_device_xiaomi_monet" revision="arrow" remote="gh" />
-    <project path="device/xiaomi/sm7250-common" name="alecchangod/android_device_xiaomi_sm7250-common" revision="arrow-13.1" remote="gh" />
+    <project path="device/xiaomi/sm8250-common" name="alecchangod/android_device_xiaomi_sm8250-common-test" revision="arrow" remote="gh" />
 
     <!--Kernel-->
     <project path="kernel/xiaomi/sm7250" name="alecchangod/kernel_xiaomi_sm7250" revision="stable" remote="gh" />
+
     <!--hardware-->
     <project path="hardware/xiaomi/" name="alecchangod/android_hardware_xiaomi" revision="lineage-20" remote="gh" />
-<!--     <project path="hardware/qcom-caf/sm8250/audio/" name="LineageOS/android_hardware_qcom_audio" revision="lineage-20.0-caf-sm8250" remote="gh" /> --> 
+
     <!-- Vendor folders -->
-    <project path="vendor/xiaomi/" name="alecchangod/android_vendor_xiaomi" revision="monet" remote="gh" />
+    <project path="vendor/xiaomi/" name="alecchangod/android_vendor_xiaomi" revision="8250" remote="gh" />
     <project path="vendor/xiaomi-firmware/monet/" name="alecchangod/vendor_xiaomi-firmware_monet" revision="main" remote="gitlab1" />
     
-    <!-- Toolchain -->
-    <!-- <project path="prebuilts/clang/host/linux-x86/clang-lolz" name="Jprimero15/lolz_clang" revision="main" remote="gitlab1" clone-depth="1"/> -->
     <!-- (Clang) -->
     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab1" revision="master" clone-depth="1" />
     
-    <!-- Clang 16 version 16.0.2 -->
-    <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r475365b" revision="13.0" remote="gitlab1" />
-    <!-- Clang 17 version 17 -->
-<!--    <project path="prebuilts/clang/host/linux-x86/clang-trb" name="alecchangod/trb_clang" revision="17" remote="gitlab1" /> -->
+    <!-- Clang 16 version 17.0.2 -->
+    <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r487747c" revision="13.0" remote="gitlab1" />
      
     <!--ANX-->
-    <project path="vendor/xiaomi/monet-miuicamera" name="alecchangod/vendor-xiaomi-monet-miuicamera" revision="thirteen-leica" remote="gitlab1" />
+<!--     <project path="vendor/xiaomi/monet-miuicamera" name="alecchangod/vendor-xiaomi-monet-miuicamera" revision="thirteen-leica" remote="gitlab1" /> -->
     
 </manifest>
