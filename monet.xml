@@ -5,7 +5,7 @@
     <remote name="gitlab1" fetch="https://gitlab.com" />
     <remote name="gh" fetch="https://github.com" />
     <!--Device Trees-->
-    <project path="device/xiaomi/monet" name="alecchangod/android_device_xiaomi_monet" revision="arrow-1" remote="gh" />
+    <project path="device/xiaomi/monet" name="alecchangod/android_device_xiaomi_monet" revision="arrow-bak" remote="gh" />
     <project path="device/xiaomi/sm7250-common" name="alecchangod/android_device_xiaomi_sm7250-common" revision="arrow-13.1-wip" remote="gh" />
 
     <!--Kernel-->
