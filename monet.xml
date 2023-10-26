@@ -9,7 +9,7 @@
     <project path="device/xiaomi/sm8250-common" name="alecchangod/android_device_xiaomi_sm8250-common-test" revision="arrow" remote="gh" />
 
     <!--Kernel-->
-    <project path="kernel/xiaomi/sm7250" name="alecchangod/kernel_xiaomi_sm7250" revision="stable" remote="gh" />
+    <project path="kernel/xiaomi/sm7250" name="alecchangod/kernel_xiaomi_sm7250" revision="wip" remote="gh" />
 
     <!--hardware-->
     <project path="hardware/xiaomi/" name="alecchangod/android_hardware_xiaomi" revision="lineage-20" remote="gh" />
