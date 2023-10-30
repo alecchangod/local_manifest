@@ -1,33 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
+    <remote name="gitlab1" fetch="https://gitlab.com" />
+    <remote name="gh" fetch="https://github.com" />
     <!--Device Trees-->
-    <project path="device/xiaomi/monet" name="alecchangod/android_device_xiaomi_monet" revision="aospa" remote="github" />
-    <project path="device/xiaomi/sm8250-common" name="alecchangod/android_device_xiaomi_sm8250-common-test" revision="aospa" remote="github" />
+    <project path="device/xiaomi/monet" name="alecchangod/android_device_xiaomi_monet" revision="aospa" remote="gh" />
+    <project path="device/xiaomi/sm8250-common" name="alecchangod/android_device_xiaomi_sm8250-common-test" revision="aospa" remote="gh" />
 
     <!--Kernel-->
-    <project path="kernel/xiaomi/sm7250" name="alecchangod/kernel_xiaomi_sm7250" revision="wip" remote="github" />
+    <project path="kernel/xiaomi/sm7250" name="alecchangod/kernel_xiaomi_sm7250" revision="wip" remote="gh" />
 
     <!--hardware-->
-    <project path="hardware/xiaomi/" name="AOSPA/android_hardware_xiaomi" revision="uvite" remote="github" /> 
-
-    <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" revision="uvite-865" remote="github" />
-    <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" revision="uvite-legacy-component" remote="github" />
-    <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" revision="uvite-865" remote="github" />
-    <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" revision="uvite-865" remote="github" />
+    <project path="hardware/xiaomi/" name="AOSPA/android_hardware_xiaomi" revision="uvite" remote="gh" /> 
+    <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" revision="uvite-865" remote="gh" />
+    <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" revision="uvite-legacy-component" remote="gh" />
+    <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" revision="uvite-865" remote="gh" />
+    <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" revision="uvite-865" remote="gh" />
 
     <!-- Vendor folders -->
-    <project path="vendor/xiaomi/" name="alecchangod/android_vendor_xiaomi" revision="monet" remote="github" />
-    <project path="vendor/xiaomi-firmware/monet/" name="alecchangod/vendor_xiaomi-firmware_monet" revision="main" remote="gitlab" />
-
-    <project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" revision="uvite-SN100X-legacy" remote="github" />
-    <project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" revision="uvite-SN100X-legacy" remote="github" />
+    <project path="vendor/xiaomi/" name="alecchangod/android_vendor_xiaomi" revision="monet" remote="gh" />
+    <project path="vendor/xiaomi-firmware/monet/" name="alecchangod/vendor_xiaomi-firmware_monet" revision="main" remote="gitlab1" />
+    <project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" revision="uvite-SN100X-legacy" remote="gh" />
+    <project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" revision="uvite-SN100X-legacy" remote="gh" />
 
     <!-- (Clang) -->
     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab1" revision="master" clone-depth="1" />
-    
     <!-- Clang 17 version 17.0.4 -->
     <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r498229b" revision="13.0" remote="gitlab1" />
-
 </manifest>
-
