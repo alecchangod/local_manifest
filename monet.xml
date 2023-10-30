@@ -17,7 +17,7 @@
     <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" revision="uvite-865" remote="gh" />
 
     <!-- Vendor folders -->
-    <project path="vendor/xiaomi/" name="alecchangod/android_vendor_xiaomi" revision="monet" remote="gh" />
+    <project path="vendor/xiaomi/" name="alecchangod/android_vendor_xiaomi" revision="aospa" remote="gh" />
     <project path="vendor/xiaomi-firmware/monet/" name="alecchangod/vendor_xiaomi-firmware_monet" revision="main" remote="gitlab1" />
     <project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" revision="uvite-SN100X-legacy" remote="gh" />
     <project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" revision="uvite-SN100X-legacy" remote="gh" />
