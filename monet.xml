@@ -7,7 +7,7 @@
     <project path="device/xiaomi/sm8250-common" name="alecchangod/android_device_xiaomi_sm8250-common-test" revision="aospa" remote="gh" />
 
     <!--Kernel-->
-    <project path="kernel/xiaomi/sm7250" name="alecchangod/kernel_xiaomi_sm7250" revision="aospa" remote="gh" />
+    <project path="kernel/xiaomi/sm7250" name="alecchangod/kernel_xiaomi_sm7250" revision="uvite" remote="gh" />
 
     <!--hardware-->
     <project path="hardware/xiaomi/" name="AOSPA/android_hardware_xiaomi" revision="uvite" remote="gh" /> 
